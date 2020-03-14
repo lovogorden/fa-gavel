@@ -24,7 +24,7 @@ export default {
   height: 100%;
 }
 .logo {
-  height: 64px;
+  height: 42px;
 }
 div {
   background-color: black;
