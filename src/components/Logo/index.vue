@@ -13,15 +13,16 @@ export default {
   data: function() {
     return {
       styleObject: {
-        color: 'red',
+        // color: 'red',
         fontSize: '13px',
-        lineHeight: '13px'
+        lineHeight: '13px',
+        paddingLeft: '13px'
       },
       something: true,
       boxHeight: 60
       
     };
-},
+  },
   components: {
     Gavel
   },
@@ -33,6 +34,7 @@ export default {
 
     this.styleObject.fontSize = inheritHeigh + 'px'
     this.styleObject.lineHeight = inheritHeigh + 'px'
+    this.styleObject.paddingLeft = inheritHeigh/4 + 'px'
   },
 };
 </script>
@@ -42,7 +44,7 @@ export default {
   .logo {
     /* --size: 32px; */
     /* width: calc(var(--size) - 80px); */
-    background-color: lime;
+    /* background-color: lime; */
     position: fixed;
     top: 10px; 
     left: 16px;
@@ -55,7 +57,7 @@ export default {
   }
   .boks {
     position: fixed;
-    background-color:lightcoral ;
+    /* background-color:lightcoral ; */
     /* line-height: 14vh;
     font-size: 12vh; */
   }
