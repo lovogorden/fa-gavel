@@ -4,11 +4,11 @@
   >LOV</span> -->
   <span ref="boks" class="boks">
 
-    <span ref="doubleBlinkLOV" class="lov doubleBlinkLOV" v-bind:style="styleObject">LOV</span>
+    <span ref="doubleBlinkLOV" class="lov lovAnim" v-bind:style="styleObject">LOV</span>
 
-    <span ref="doubleBlinkOg" class="og doubleBlinkLOV" v-bind:style="styleObject">&amp;</span>
+    <span ref="doubleBlinkOg" class="og ordenAnim" v-bind:style="styleObject">&amp;</span>
 
-    <span ref="doubleBlinkOrden" class="doubleBlinkLOV" v-bind:style="styleObject">ORDEN</span>
+    <span ref="doubleBlinkOrden" class="orden ordenAnim" v-bind:style="styleObject">ORDEN</span>
 
   </span>
 
@@ -46,20 +46,40 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .lov {
+  animation:lovAnim 1.2s 0s;
   padding-left: 0px;
 }
 
 .og {
   animation:ogAnim 1.2s 0s;
+  padding-left: inherit;
+}
+
+.orden {
+  animation:ordenAnim 1.2s 0s;
+  padding-left: inherit;
 }
 
 
-@keyframes ogAnim{
+@keyframes lovAnim{
     0%{    color: black; }
     5%{     color: white;    }
-    10%{     color: black;    }
-    20%{     color: white;    }
+    20%{     color: black;    }
+    40%{     color: white;    }
+}
 
+@keyframes ogAnim{
+    0%{    color: black; }
+    45%{     color: white;    }
+    40%{     color: black;    }
+    60%{     color: white;    }
+}
+
+@keyframes ordenAnim{
+    0%{    color: black; }
+    85%{     color: white;    }
+    80%{     color: black;    }
+    100%{     color: white;    }
 }
 
 .doubleBlinkLOV {

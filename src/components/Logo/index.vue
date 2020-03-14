@@ -5,10 +5,10 @@
 
     <!-- <span class="boks" v-bind:style="styleObject">LOV &amp; ORDEN</span> -->
 
-    <div ref="law" class="boks" v-bind:style="textStyleObject">LOV &amp; ORDEN</div>
+    <!-- <div ref="law" class="boks" v-bind:style="textStyleObject">LOV &amp; ORDEN</div>
     <br/>
     <br/>
-    <div>styleObject.fontSize: {{styleObject.fontSize}}</div>
+    <div>styleObject.fontSize: {{styleObject.fontSize}}</div> -->
     <!-- <pre>{{JSON.stringify(this.$refs["law"].innerText, null, 2)}}</pre> -->
   </div>
 </template>
