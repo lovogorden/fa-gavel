@@ -14,7 +14,6 @@
   }
   .logoText {
     padding: 0.3em 0em 0.3em 1em;
-    
 
   }
   .lovogordenSvg {
