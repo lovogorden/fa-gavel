@@ -1,32 +1,41 @@
 <template>
   <div class="root">
-    <Logo class="logo"/>
+
+    <div class="header">
+      <Logo class="logo"/>
+    <!-- <SomeText class="header"></SomeText> -->
+    </div>
+
   </div>
 </template>
 
 <script>
 //import Gavel from '../Gavel';
 import Logo from '../Logo';
-
+//import SomeText from '../SomeText';
 export default {
   name: "Root",
   components: {
     // Gavel,
     Logo
+    //SomeText
   }
   
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 .root {
-  height: 100%;
+  background-color: red;
+  height: 164px;
+  width:100%;
 }
-.logo {
+.header {
   height: 64px;
 }
-div {
-  background-color: black;
+.logo {
+  background-color: blue;
+  
 }
 </style>

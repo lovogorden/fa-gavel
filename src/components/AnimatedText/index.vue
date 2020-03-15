@@ -56,7 +56,7 @@ export default {
 }
 
 .orden {
-  animation:ordenAnim 1.2s 0s;
+  animation:ogAnim 1.2s 0s;
   padding-left: inherit;
 }
 

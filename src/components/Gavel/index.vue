@@ -98,6 +98,9 @@ export default {
     100%{   stroke: yellow;    }
 }
 
+svg {
+  display:inline-block;
+}
 svg > path{
   fill: green;
 }
