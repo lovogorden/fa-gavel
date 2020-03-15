@@ -1,5 +1,10 @@
 <template>
-    <svg viewBox="0 0 2500 2500" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- NB NB NB - DO NOT WRAP IN DIV TAG!!!  -->
+
+    <!-- Some funny shit - sometime cant cal width of div -->
+
+    <svg className="svgContainer" viewBox="0 0 2500 2500" xmlns="http://www.w3.org/2000/svg">
       
       <circle 
       v-bind:class="{ pulsingSirkel: isPulsing, 'text-danger': hasError }"
@@ -40,7 +45,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.svgContainer {
+  height: 100%;
+  width: 100%;
+}
 .flickeringText {
   color:black;
   margin-bottom:2px;
