@@ -3,9 +3,9 @@
   <div class="textContainer">
     <svg class="lovogordenSvg" xmlns="http://www.w3.org/2000/svg"
 
-      viewBox="0 0 920 112">
+      viewBox="0 0 920 109">
       <path class="lovogordenPath" id="Selection"
-        fill="black" stroke="none" stroke-width="1"
+        fill="white" stroke="none" stroke-width="1"
         d="M 151.91,13.01
             C 159.66,21.24 162.61,31.11 164.13,42.00
               167.14,63.61 163.79,89.89 144.00,102.89

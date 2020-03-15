@@ -32,10 +32,11 @@ export default {
   width:100%;
 }
 .header {
-  height: 64px;
+  height: 44px;
+  background-color: black;
+  padding: 9px;
 }
 .logo {
-  background-color: blue;
   
 }
 </style>

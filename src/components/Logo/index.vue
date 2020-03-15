@@ -6,11 +6,6 @@
     height: inherit;
     vertical-align: middle;
   }
-  .myspan {
-    position: absolute;
-    height: auto;
-    background-color: orange;
-  }
   .gavel {
     display:inline-block;
     white-space: nowrap;
@@ -18,41 +13,24 @@
     width: inherit;
   }
   .logoText {
-    position: fixed;
-    height: inherit;
-    width: inherit;
-    display: none;
+    padding: 0.3em 0em 0.3em 1em;
+    
+
   }
   .lovogordenSvg {
     height: inherit;
     width:auto;
-    background-color: lime;
+    /* background-color: lime; */
   }
   #parent {
-    background-color: turquoise;
-    height: inherit;
-    display: inline-flex;
-    /* width: 200px; */
-    /* position: relative;
-    display: table; */
-    /* padding: 0.1em 0.8em 0.9em 0.7em; */
+    height: 100%;
+    display: flex;
   }
-  #child {
-    display:inline-block;
-    color: black;
-    display: inline-flex;
-    height:fit-content;
-    /* width: 100px; */
-
-    background-color: blue;
-    /* position: absolute;
-    height: inherit;
-    width: auto;
-    display: table-cell;
-    vertical-align: middle; */
-    /* background-color:darksalmon; */
-
+  .padda {
+    height: 100%;
+    display: flex;
   }
+
 </style>
 
 <template>
@@ -61,10 +39,12 @@
     <span class="myspan">span</span> -->
 
     <div id="parent">
-      <Gavel class="gavel"/>
-      <!-- outside
-      <div id="child">inside</div> -->
-      <LogoText></LogoText>
+      <div class="padda">
+        <Gavel class="gavel"/>
+        <!-- outside
+        <div id="child">inside</div> -->
+        <LogoText class="logoText"></LogoText>
+      </div>
     </div>
 
     <!-- <span id="parent">
