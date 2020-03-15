@@ -10,7 +10,7 @@
     width: auto;
   }
   .logoText {
-    padding: 0em 0em 0em 5%;
+    padding: 0em 0em 0em 0em;
     width: fit-content;
   }
   .logoContainer {
@@ -31,9 +31,7 @@
       <Gavel class="gavel"/>
       <!-- outside
       <div id="child">inside</div> -->
-      <div class="logoDiv">
-        <LogoText class="logoText"></LogoText>
-      </div>
+      <LogoText class="logoText"></LogoText>
   </div>
 
 </template>

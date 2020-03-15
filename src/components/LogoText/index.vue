@@ -4,7 +4,7 @@
 
   <svg class="svgContainer" xmlns="http://www.w3.org/2000/svg"
 
-    viewBox="0 0 920 109">
+    viewBox="-60 -20 1010 149">
     <path class="lovogordenPath" id="Selection"
       fill="white" stroke="none" stroke-width="1"
       d="M 151.91,13.01
