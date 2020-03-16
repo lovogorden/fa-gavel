@@ -34,6 +34,7 @@ nav {
   line-height: 30px;
   background-color:rgb(64, 67, 64);
   color: white;
+  text-decoration: none;
 }
 </style>
 
